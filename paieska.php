@@ -24,7 +24,7 @@ $sql = "SELECT Title, Year, Author, Genre FROM knygos WHERE Title='$title';";
 
 $result = mysqli_query($conn, $sql);
 
-echo "<center><h1>Book information:</h1></center>";
+echo "<center><h1>Information about book:</h1></center>";
 
 if (mysqli_num_rows($result) > 0) {
    
