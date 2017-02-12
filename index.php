@@ -36,9 +36,9 @@ $username = 'sql11158399';
 $password = '2jQG7Y223Y';
 
 $dbname = 'sql11158399';
-
-
-
+	
+$index = 1;
+	
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 if (!$conn) {
@@ -57,7 +57,7 @@ if (mysqli_num_rows($result) > 0) {
 
 echo  '<center>
 
-          <a href="antrasis_puslapis.php?link='.$row["Title"].'" style="color: #f5f5dc;">
+          <a href="antrasis_puslapis.php?link='.$index++.$row["Title"].'" style="color: #f5f5dc;">
 		  
 		    '.$row["Title"].'  </a>                           
 			
