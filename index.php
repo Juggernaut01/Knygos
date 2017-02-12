@@ -57,7 +57,7 @@ if (mysqli_num_rows($result) > 0) {
 
 echo  '<center>
 
-          <a href="antrasis_puslapis.php?link='.$index++.$row["Title"].'" style="color: #f5f5dc;">
+          <a href="antrasis_puslapis.php?link='.$index+1.". ".$row["Title"].'" style="color: #f5f5dc;">
 		  
 		    '.$row["Title"].'  </a>                           
 			
