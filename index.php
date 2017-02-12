@@ -3,7 +3,7 @@
  
   <link rel="stylesheet" type="text/css" href="style.css">
 
-   <center><h1>Book list:</h1></center>
+   <center><h1>List of books:</h1></center>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
