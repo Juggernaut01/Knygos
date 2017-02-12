@@ -55,7 +55,7 @@ if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
 		 
 
-echo  '<center>
+echo  $index++ . ' <center>
 
           <a href="antrasis_puslapis.php?link='.$row["Title"].'" style="color: #f5f5dc;">
 		  
