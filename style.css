@@ -1,0 +1,54 @@
+input[type='text']
+{  
+    
+}
+
+head{
+	color: white;
+}
+
+body{
+
+	color: white;
+}
+
+
+html { 
+  background: url(bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	 position:center;
+	 font-size: 50px; 
+	 letter-spacing: -1px;
+	  color: #DFBF84; 
+	  text-transform: uppercase; 
+	  text-shadow: 1px 1px 0 #000, margin: 10px 0 24px;
+	   text-align: center; 
+	   line-height: 30px;
+}
+form{
+	
+	color:#DFBF84;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
