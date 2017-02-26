@@ -5,11 +5,11 @@
 // MySQL host
 $servername = 'sql11.freemysqlhosting.net';
 // MySQL username
-$username = 'sql11158399';
+$username = 'sql11160969';
 // MySQL password
-$password = '2jQG7Y223Y';
+$password = 'EAR4JUTvAQ';
 // Database name
-$dbname = 'sql11158399';
+$dbname = 'sql11160969';
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
 if (!$conn) {
