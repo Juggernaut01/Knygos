@@ -29,21 +29,9 @@
 
 <?php
 
-$servername = 'sql11.freemysqlhosting.net';
-
-$username = 'sql11160969';
-
-$password = 'EAR4JUTvAQ';
-
-$dbname = 'sql11160969';
+include 'connect.php'
 	
 $index = 1;
-	
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
 
 $sql = "SELECT Title, Year, Author, Genre FROM knygos";
 
