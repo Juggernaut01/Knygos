@@ -29,7 +29,7 @@
 
 <?php
 
-include 'connect.php'
+include 'connect.php';
 	
 $index = 1;
 
