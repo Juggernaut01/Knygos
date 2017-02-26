@@ -31,11 +31,11 @@
 
 $servername = 'sql11.freemysqlhosting.net';
 
-$username = 'sql11158399';
+$username = 'sql11160969';
 
-$password = '2jQG7Y223Y';
+$password = 'EAR4JUTvAQ';
 
-$dbname = 'sql11158399';
+$dbname = 'sql11160969';
 	
 $index = 1;
 	
