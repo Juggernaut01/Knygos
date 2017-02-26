@@ -22,10 +22,7 @@
   <label for="title">Book search:</label> <input type="text" id="name1" name="name">
  
   <button type = "submit">Search</button>
-	//<div id="items">
-	<label> for="title">Show items per page:</label><input type="text" id="name1" name="name">
-        <button type = "submit">Search</button>
-	//</div>
+	
 </form>
 
 <ul class="article-list-vertical">
